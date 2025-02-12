@@ -1,9 +1,13 @@
 import argparse
 from os import path as osp
+import sys
+import os
 
-from ...utils.utils_video import scandir
-from ...utils.utils_lmdb import make_lmdb_from_imgs
+KAIR_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"))
+sys.path.append(KAIR_PATH)
 
+from utils.utils_video import scandir  # Now it should work!
+from utils.utils_lmdb import make_lmdb_from_imgs
 
 def create_lmdb_for_div2k():
     """Create lmdb files for DIV2K dataset.
