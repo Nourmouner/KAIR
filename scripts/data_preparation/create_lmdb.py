@@ -1,9 +1,10 @@
 import argparse
 from os import path as osp
 
-from utils.utils_video import scandir
-from utils.utils_lmdb import make_lmdb_from_imgs
-
+#from utils.utils_video import scandir
+#from utils.utils_lmdb import make_lmdb_from_imgs
+from scripts.utils.utils_video import scandir
+from scripts.utils.utils_lmdb import make_lmdb_from_imgs
 
 def create_lmdb_for_div2k():
     """Create lmdb files for DIV2K dataset.
