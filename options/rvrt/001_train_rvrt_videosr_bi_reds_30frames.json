@@ -19,8 +19,8 @@
     "train": {
       "name": "train_dataset",
       "dataset_type": "VideoRecurrentTrainDataset",
-      "dataroot_gt": "trainsets/train_GT/000",
-      "dataroot_lq": "trainsets/train_LQ/000",
+      "dataroot_gt": "trainsets/train_GT/000.lmdb",
+      "dataroot_lq": "trainsets/train_LQ/000.lmdb",
       "meta_info_file": "data/meta_info/meta_info_REDS_GT.txt",
       "filename_tmpl": "08d",
       "filename_ext": "png",
