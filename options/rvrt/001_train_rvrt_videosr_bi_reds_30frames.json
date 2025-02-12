@@ -1,7 +1,7 @@
 {
   "task": "001_train_rvrt_videosr_bi_reds_30frames",
   "model": "vrt",
-  "gpu_ids": [0, 1, 2, 3, 4, 5, 6, 7],
+  "gpu_ids": [0],
   "dist": true,
   "find_unused_parameters": false,
   "use_static_graph": true,
